@@ -151,7 +151,7 @@ body {
   cursor: pointer;
 }
 
-#employeemodal {
+#employeeModal {
   width: 30%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -159,11 +159,9 @@ body {
   border: 2px solid blueviolet;
   position: fixed;
   background-color: white;
-  top: 40%;
+  top: 16%;
   left: 40%;
   border-radius: 10px;
-  border-width: 2px;
-  border: blueviolet solid;
 }
 
 .modal_header {
@@ -172,6 +170,8 @@ body {
 }
 
 .modal_header_content {
+  color: white;
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: large;
@@ -179,12 +179,27 @@ body {
 }
 
 #confirmBtn {
-  margin: 30px;
+  margin: 20px;
   float: right;
 }
 
+.formVals {
+  padding: 0 42px;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.formVals br {
+  display: none;
+}
+
+label {
+  margin-top: 21px;
+}
+
 input {
-  width: 50%;
+  width: 70%;
+  height: 35px;
   padding: 12px 20px;
   margin: 8px 0px;
   display: inline-block;
@@ -192,7 +207,7 @@ input {
   box-sizing: border-box;
 }
 
-#confirm {
+#confirmBtn {
   text-decoration: none;
   border: none;
   text-align: center;
@@ -202,4 +217,19 @@ input {
   font-size: 16px;
   cursor: pointer;
   background-color: #36bc65;
+}
+
+#interviewModal {
+  width: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 2px solid blueviolet;
+  position: fixed;
+  background-color: white;
+  top: 16%;
+  left: 40%;
+  border-radius: 10px;
+  border-width: 2px;
+  border: blueviolet solid;
 }/*# sourceMappingURL=style.css.map */
