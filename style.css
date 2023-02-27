@@ -152,11 +152,12 @@ body {
 }
 
 #employeeModal {
+  display: none;
   width: 30%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: 2px solid blueviolet;
+  border: 2px solid rgb(0, 0, 0);
   position: fixed;
   background-color: white;
   top: 16%;
@@ -220,6 +221,7 @@ input {
 }
 
 #interviewModal {
+  display: none;
   width: 30%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -232,4 +234,21 @@ input {
   border-radius: 10px;
   border-width: 2px;
   border: blueviolet solid;
+}
+
+#confirm_container {
+  display: flex;
+  justify-content: center;
+}
+#confirm_container #confirmIntBtn {
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  padding: 8px 12px;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #36bc65;
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
