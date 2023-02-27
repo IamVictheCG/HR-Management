@@ -172,5 +172,12 @@ body {
         font-weight: bold;
         width: 95px;
         height: 35px;
+        cursor: pointer;
     }
+}
+
+.modal {
+    width: 30%;
+    height: fit-content;
+    border: 2px solid blueviolet;
 }

@@ -99,11 +99,7 @@
         </div>
     </section>
 
-    <div class="add">
-        <button type="button" class="add_employee" id="add_employee">Add employee</button>
-        <button type="button" class="add_employee" id="interview">Add interview</button>
-    </div>
-
+    
     <div id="employeemodal" class="modal">
 
         <div class="modal-content">
@@ -131,7 +127,7 @@
                 <label for="fname">Salary</label>
                 <input type="text" id="salary">
                 <br>
-
+                
                 <button id="confirmBtn" type="button" name="button"></button>
             </div>
             <footer id="modal_footer"></footer>
@@ -139,7 +135,7 @@
     </div>
     
     <div id="interviewmodal" class="modal">
-
+        
         <div class="modal-content">
             <header class="modal_header">
                 <div class="modal_header_content">
@@ -147,30 +143,25 @@
                 </div>
             </header>
             <div class="modal_container">
-                <label for="fname">First Name</label>
-                <input type="text" id="name">
-                <br>
-                <label for="fname">Last Name</label>
-                <input type="text" id="surname">
+                <label for="fname">Department</label>
+                <input type="text" id="int_department">
                 <br>
                 <label for="fname">Position</label>
-                <input type="text" id="position">
+                <input type="text" id="int_position">
                 <br>
-                <label for="fname">Department</label>
-                <input type="text" id="department">
-                <br>
-                <label for="fname">Email</label>
-                <input type="text" id="email">
-                <br>
-                <label for="fname">Salary</label>
-                <input type="text" id="salary">
-                <br>
-
-                <button id="confirmBtn" type="button" name="button"></button>
+                
+                <button id="confirmIntBtn" type="button" name="button"></button>
             </div>
         </div>
     </div>
 
+    
+    <div class="add">
+        <button type="button" class="add_employee" id="add_employee">Add employee</button>
+        <button type="button" class="add_employee" id="interview">Add interview</button>
+    </div>
+
+    
     <script src="js.js"></script>
 </body>
 </html>

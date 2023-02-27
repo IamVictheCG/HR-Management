@@ -148,4 +148,13 @@ body {
   font-weight: bold;
   width: 95px;
   height: 35px;
+  cursor: pointer;
+}
+
+.modal {
+  width: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 2px solid blueviolet;
 }/*# sourceMappingURL=style.css.map */
