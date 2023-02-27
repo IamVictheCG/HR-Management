@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.nav-list {
+  margin: 0;
+  height: 80px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(19, 138, 92);
+  box-shadow: rgb(65, 59, 59) 0px 0px 20px 0px;
+}
+
+.section1 {
+  border: plum 2px solid;
+  width: 100%;
+}
+.section1 .employees {
+  width: 95%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(126, 126, 121);
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-left: 5%;
+  padding: 15px;
+}
+.section1 .employees .employee {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 6px 15px black;
+  border-radius: 10px;
+  width: 330px;
+  height: 120px;
+  border: 2px rgb(2, 233, 144) solid;
+  display: flex;
+  justify-content: space-around;
+  gap: 2px;
+}
+.section1 .employees .employee img {
+  position: relative;
+  top: 5%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px rgb(19, 138, 92) solid;
+}
+.section1 .employees .employee .ids {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px rgb(19, 138, 92) solid;
+}
+.section1 .employees .employee .ids strong:nth-child(1) {
+  color: rgb(19, 138, 92);
+}
+.section1 .employees .employee .ids p {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
