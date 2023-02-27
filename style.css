@@ -128,4 +128,24 @@ body {
   width: 40%;
   height: 100%;
   border: 2px solid rgb(185, 104, 29);
+}
+
+.add {
+  margin-bottom: 1%;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  left: 82%;
+}
+.add button {
+  background-color: rgb(19, 138, 92);
+  border: 2px solid rgb(19, 138, 92);
+  color: white;
+  font-weight: bold;
+  width: 95px;
+  height: 35px;
 }/*# sourceMappingURL=style.css.map */

@@ -154,3 +154,23 @@ body {
         }
     }
 }
+
+.add {
+    // border: 2px solid cadetblue;
+    margin-bottom: 1%;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    position: relative;
+    left: 82%;
+
+    button {
+        background-color: rgb(19, 138, 92);
+        border:  2px solid rgb(19, 138, 92);
+        color: white;
+        font-weight: bold;
+        width: 95px;
+        height: 35px;
+    }
+}
