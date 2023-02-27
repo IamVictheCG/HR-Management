@@ -176,8 +176,32 @@ body {
     }
 }
 
-.modal {
+#employeemodal {
     width: 30%;
     height: fit-content;
     border: 2px solid blueviolet;
+    position: fixed;
+    background-color: white;
+    top: 40%;
+    left: 40%;
+    border-radius: 10px;
+    border-width: 2px;
+    border: blueviolet solid;
+}
+
+.modal_header {
+    border-radius: 6px 6px 0px 0px;
+    background-color: rgb(19, 138, 92);
+}
+
+.modal_header_content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#confirmBtn {
+    margin: 30px;
+    float: right;
 }
