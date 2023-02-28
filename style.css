@@ -35,6 +35,9 @@ body {
   margin-left: 2%;
   padding: 2%;
 }
+.section1 .employees li {
+  list-style: none;
+}
 .section1 .employees .employee {
   background-color: rgb(255, 255, 255);
   box-shadow: 10px 6px 15px black;
@@ -61,7 +64,7 @@ body {
   border: 2px rgb(19, 138, 92) solid;
   height: 83%;
 }
-.section1 .employees .employee .ids strong:nth-child(1) {
+.section1 .employees .employee .ids strong {
   color: rgb(19, 138, 92);
 }
 .section1 .employees .employee .ids p {

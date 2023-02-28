@@ -38,6 +38,10 @@ body {
         margin: 0;
         margin-left: 2%;
         padding: 2%;
+
+        li {
+            list-style: none;
+        }
         
         .employee {
             background-color: rgb(255, 255, 255);
@@ -72,7 +76,7 @@ body {
                 border: 2px rgb(19, 138, 92) solid;
                 height: 83%;
     
-                strong:nth-child(1) {
+                strong {
                     color: rgb(19, 138, 92)
                 }
                 
