@@ -1,13 +1,13 @@
-var employees =document.querySelector(".emloyees")
+var employees =document.querySelector(".employees")
 var interviews = document.querySelector(".interviews")
 var addInterviewModal = document.querySelector("#interviewModal")
 var addEmployeeModal = document.querySelector("#employeeModal")
 var add_interview = document.querySelector("#add_int")
 var add_employee = document.querySelector("#add_employee")
-// var confirmBtn = document.getElementById("#confirmBtn")
-// var confirmIntBtn = document.getElementById("#confirmIntBtn")
+var confirmBtn = document.getElementById("confirmBtn")
+var confirmIntBtn = document.getElementById("confirmIntBtn")
 
-console.log(interviews)
+// console.log(interviews)
 function addEmployee() {
   let name = document.querySelector("#name").value
   let surname = document.querySelector("#surname").value
@@ -40,8 +40,8 @@ function addEmployee() {
 }
 
 function addInterview() {
-  let intPosition = document.querySelector("#position").value
-  let intDepartment = document.querySelector("#department")
+  let intPosition = document.querySelector("#int_position").value
+  let intDepartment = document.querySelector("#int_department")
   // var confirmIntBtn = document.getElementById("#confirmIntBtn")
   
   var newInterview = `
@@ -75,4 +75,5 @@ function showEmpModal() {
 add_employee.addEventListener("click", showEmpModal)
 add_interview.addEventListener("click", showIntModal)
 //=================================================================
-// confirmBtn.addEventListener("click", addEmployee)
+confirmBtn.addEventListener("click", addEmployee)
+confirmIntBtn.addEventListener("click", addInterview)
