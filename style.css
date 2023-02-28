@@ -91,6 +91,9 @@ body {
   flex-direction: column;
   gap: 15px;
 }
+.section2 .interviews li {
+  list-style: none;
+}
 .section2 .interviews .interview {
   width: 80%;
   height: -webkit-fit-content;

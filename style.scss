@@ -110,6 +110,10 @@ body {
         flex-direction: column;
         gap: 15px;
 
+        li {
+            list-style: none;
+        }
+
         .interview {
             width: 80%;
             height: fit-content;
